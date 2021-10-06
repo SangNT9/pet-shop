@@ -1,0 +1,799 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: auto;
+    margin: 0px auto;
+    background-color: #ffbe76;
+}
+
+.logo {
+    margin: 0 150px;
+    width: 10%;
+    float: left;
+}
+
+.Hỗtrợ {
+    margin-top: 6px;
+    margin-right: 170px;
+    float: right;
+    color: white;
+}
+.Hỗtrợ::after{
+    content: " ";
+    display: block;
+    width: auto;
+    height: 1px;
+    background-color:whitesmoke;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+
+input {
+    margin: -4px;
+    padding: 12px 10px;
+}
+
+
+/* Chỉnh ô tìm kiếm */
+
+form {
+    margin-top: 60px;
+    margin-left: 110px;
+    width: 40%;
+    float: left;
+}
+
+.container form>.Select {
+    padding: 12px 0px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.container form .Select option:hover{
+    background-color: black;
+}
+.container form>.Seach {
+    padding: 12px 25px;
+    background-color: #eb4d4b;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.container form>.Seach:hover{
+    color: #ffbe76;
+}
+
+.container form>.Input {
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px; 
+}
+
+.giohang {
+    clear: both;
+    margin-top: -87px;
+    margin-right: 175px;
+    float: right;
+}
+.fa-shopping-cart,
+.fa-star-of-david,
+.fa-user {
+    color: white;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 30px;
+    transition: 1.0s;
+}
+.fa-shopping-cart:hover,
+.fa-star-of-david:hover,
+.fa-user:hover{
+    color:#eb4d4b;
+    transform: rotateY(360deg);
+    transition: 1.0s;
+
+    
+}
+
+.container form .Seach,
+.container form input,
+.container form .Select,
+.khunginfo button,
+.noidung button,
+.in41 .Seach,
+.in41 .Input{
+    border: none;
+}
+
+/*------------------MENU NGANG---------------------*/
+
+.menu {
+    clear: both;
+}
+
+.menu ul {
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    padding: 0px;
+    background: #eb4d4b;
+    list-style-type: none;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    z-index: 200;
+}
+
+.menu ul li {
+    display: inline-table;
+    width: 200px;
+    height: 50px;
+    line-height: 60px;
+    position: relative;
+}
+
+.menu ul li a {
+    padding: 2px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    background-color: #eb4d4b;
+    transition: .3s;
+
+}
+
+.menu ul li a:hover,
+.menu ul li a:active {
+    color: black;
+}
+
+.menu ul li>.menusp {
+    margin-left: -9px;
+    display: none;
+    position: absolute;
+}
+
+.menu ul li:hover>.menusp,
+.menu ul li:active>.menusp {
+    display: block;
+}
+
+
+/*------------------------------MENU top-------------------------*/
+
+.menu-top {
+    clear: both;
+    width: 100%;
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 200;
+}
+.menu-top ul {
+    margin: 0 130px;
+    background: #eb4d4b;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+.menu-top ul li {
+    display: inline-table;
+    width: 300px;
+    height: 50px;
+    line-height: 60px;
+    position: relative;
+}
+
+.menu-top ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    background-color: #eb4d4b;
+}
+
+.menu-top ul li a:hover {
+    color: black;
+    transition: .3s;
+}
+
+.menu-top ul li>.menusp {
+    display: none;
+    position: absolute;
+    margin: 0;
+}
+
+.menu-top ul li:hover .menusp {
+    display: block;
+}
+
+
+/*-----------------------MENU DỌC---------------------*/
+
+.menu2 {
+    float: left;
+    clear: both;
+}
+
+.menu2 ul {
+    margin-top: 0px;
+    margin-left: 97px;
+    width: 71%;
+    padding: 0px 4px;
+    list-style-type: none;
+    z-index: 200;
+}
+
+.toggle-menu {
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    margin: 10px -10px 0 0;
+    padding: 7px;
+    background: #eb4d4b;
+    border: none;
+    border-bottom: 2px solid #e8e8e8;
+}
+.menu2 ul{
+    background-color:white;
+}
+.menu2 ul li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #34495e;
+    padding: 0;
+    position: relative;
+}
+
+.menu2 ul li a {
+    text-align: left;
+    text-decoration: none;
+    color: #6d6e71;
+    display: block;
+    margin-left: 15px;
+}
+
+.menu2 ul li:hover {
+    color: white;
+    transition: all .3s;
+}
+
+.menu2 ul li>.KOD {
+    position: absolute;
+    left: 150px;
+    top: 0;
+    display: none;
+}
+
+.menu2 ul li>.KOC {
+    position: absolute;
+    left: 150px;
+    top: 0;
+    display: none;
+}
+
+.menu2 ul li:hover>.KOC {
+    display: block;
+}
+
+.menu2 ul li:hover>.KOD {
+    display: block;
+}
+/*------------------------MenuHamster----------------------*/
+.menu2 ul li>.KOHamster {
+    position: absolute;
+    left: 150px;
+    top: 0;
+    display: none;
+}
+.menu2 ul li:hover>.KOHamster {
+    display: block;
+}
+.menu2 ul li a:hover{
+    color: #eb4d4b;
+}
+
+.noidung {
+    width: 70%;
+    height: auto;
+    float: left;
+    margin: 10px;
+}
+
+/* -----------------------SLIDE-------------------------- */
+
+@keyframes slider {
+    0%{
+        left: 0;  
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+
+}
+
+#slider,#slide1{
+    overflow: hidden;
+}
+#slider figure img{
+    width: 20%;
+    height: 500px;
+    float: left;
+}
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 15s slider infinite;
+}
+/* --------------------------Footer---------------------- */
+.a {
+    float: left;
+    margin: 5px 15px;
+    display: block;
+}
+.b {
+    float: left;
+    margin: 5px 15px;
+    padding-left: 25px;
+    text-align: left;
+    border-left: 1px solid white;
+}
+.c {
+    float: left;
+    margin: 5px 15px;
+    padding-left: 25px;
+    border-left: 1px solid white;
+}
+.d {
+    float: left;
+    margin: 5px 15px;
+    padding-left: 25px;
+    border-left: 1px solid white;
+}
+
+.in4 p,h4 {
+    margin: 5px 0;
+    width: 280px;
+}
+.in4 {
+    background-color:wheat;
+    height: 80px;
+    margin: 10px 95px;
+    margin-top: 10px;
+    border-radius: 10px;
+    clear: both;
+    width: auto;
+}
+
+.a, .b, .c, .d{
+    width: 20%;
+}
+
+.slider1 img{
+    padding: 10px 20px;
+    width: 8%;
+    height: 110px;
+    float: left;
+}
+.end {
+    height: 80px;
+    margin: 10px 95px;
+    margin-top: 10px;
+    border-radius: 10px;
+    clear: both;
+}
+.slider1 figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+}
+
+/* -------------------------------DANH MUC SAN PHAM------------------------------- */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;  
+}
+/*=========================== Khung DMNB ===========================*/
+
+.DMNB,
+.khunghamster{
+    clear: both;
+    background: white;
+    margin: 25px 95px;
+}
+.khunghamster1{
+    clear: both;
+    background: white;
+}
+.DMNB h2,
+.khunghamster h2{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #eb4d4b;
+    color:white;
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight: 60px;
+    font-size: 20px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.NDSP{
+    background: whitesmoke;
+    border-top: 4px solid #eb4d4b;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.NDSP .khungsp{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    margin: 10px 6px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.NDSP .khungsp .khungimg{
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+}
+
+.NDSP .khungsp .khungimg img{
+    max-width: 100%;
+    transition: transform 1s;
+    height: 250px;
+}
+
+.NDSP .khungsp:hover .khungimg img{
+    transform: scale(1.2);
+}
+
+/*============================ DMNB GRID =================================*/
+.khunginfo{
+    padding: 5px 0;
+    text-align: left;
+    display: block;
+}
+.khunghamster .khunginfo{
+    padding: 5px 0;
+    text-align: center;
+    display: block;
+}
+
+.khunginfo .box-pro-details{
+    z-index: 9;
+    width: 100%;
+}
+
+.khunginfo h3{
+    font-size: 17px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+
+.h3{
+    color: black;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.khung h3 a{
+    color: black;
+    line-height: 16px;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    transition: opacity 150ms linear, color 150ms linear, background 150ms linear;
+    text-decoration: none;
+    outline: none;
+    
+}
+
+.khunginfo .box-pro-details h3 a:hover,
+.khunggia1:hover{
+    color: #eb2f06;
+    transition: .2s;
+}
+.khunggia1{
+    font-size: 17px;
+    font-weight: 700px;
+    line-height: 22px;
+}
+.khunggia{
+    font-size: 17px;
+    font-weight: 700px;
+    line-height: 22px;
+    color:#eb4d4b;
+}
+.viewall{
+    text-align: center;
+    margin: 20px 0;
+    
+}
+
+.viewall a{
+    transition: opacity 150ms linear, color 150ms linear, background 150ms linear;
+    color: #262626;
+    text-decoration: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.viewall a:hover{
+    color: #f9ca24;
+}
+/* -------------Btn Mua-------------- */
+.khungimg .btnmua{
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+    z-index: 1;
+    cursor: pointer;
+    color:black;
+}
+.btnmua .far,
+.fa-cart-plus{
+    font-size: 20px;
+    padding: 0 2px;
+}
+.btnmua :hover{
+    color: #f9ca24;
+}
+.khunghamster1 .NDSP{
+    border-top: 4px solid #eb4d4b;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.khunghamster1 .row{
+    margin-bottom: 20px;
+}
+.btn-fixed{
+    color: white;
+    background: #eb4d4b;
+    position: fixed;
+    bottom:10px;
+    right: 20px;
+    text-align: center;
+    border: 2px solid#eb4d4b;
+    display: block;
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    font-size: 30px;
+    transition: .3s;
+}
+.btn-fixed:hover{
+    color: black;
+    transition: .3s;
+
+}
+.noidung .noidungcon {
+    background: whitesmoke;
+    padding: 15px;
+}
+.noidung .noidungcon img{
+    height: 400px;
+    width: 400px;
+    float: left;
+    margin-right: 25px;
+}
+.noidung .noidungcon .ttsp{
+    clear: both;
+}
+.noidung .Gia{
+    float: left;
+}
+/* ------------------------Button Mua Hàng-------------------------- */
+.khunginfo button,
+.noidungcon button{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+.khunginfo button span,
+.noidungcon button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.khunginfo button span:after,
+.noidungcon button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -25px;
+    transition: 0.5s;
+}
+  
+.khunginfo button:hover span,
+.noidungcon button:hover span {
+    padding-right: 15px;
+}
+  
+.khunginfo button:hover span:after,
+.noidungcon button:hover span::after {
+    opacity: 1;
+    right: 0;
+}
+/* -----------------------------------Footer2------------------------------------- */
+.in41 .a1 {
+    float: left;
+    margin: 5px 15px;
+    display: block;
+}
+.in41 .b1 {
+    float: left;
+    margin: 5px 15px;
+    padding-left: 25px;
+    text-align: left;
+}
+.in41 .d1 {
+    margin: 5px 29px;
+    padding-left: 325px;
+}
+.in41 .e1 {
+    float: left;
+    margin: 5px 15px;
+    padding-left: 25px;
+}
+.in41 .f1{
+    padding-top: 55px;
+}
+.in41 p,h4 {
+    margin: 5px 0;
+    width: 175px;
+}
+.in41 .d1 p {
+    float: left;
+    margin: 5px 0;
+    width: auto;
+    padding-right: 35px;
+}
+.in41 h4 {
+    color: white;
+}
+.in41 {
+    padding: 25px;
+    background: #ffbe76;
+    height: 260px;
+    line-height: 25px;
+    clear: both;
+}
+.in41 .logo1{
+    float: left;
+}
+.in41 .Seach{
+    padding: 12px 25px;
+    background-color: #eb4d4b;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.in41 .Input {
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-radius: 10px;
+    padding: 12px 40px;
+    clear: both;
+}
+.e1 span{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 40px;
+    text-align: center;
+    color:black;
+}
+.icons {
+    float: left;
+    margin: 10px 10px;
+    padding-left: 75px;
+}
+.icons a {
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 18px;
+    width: 60px;
+    height: 60px;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 10px;
+    z-index: 10;
+}
+.icons a::before{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(45deg,#FFC312,#EE5A24);
+    border-radius: 50%;
+    z-index: -1;
+    transition: .3s ease-in;
+}
+.icons a:hover::before{
+    transform: scale(0);
+}
+.icons a i{
+    transition: .3s ease-in;
+}
+.icons a:hover i{
+    background: linear-gradient(45deg,#FFC312,#EE5A24);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(2);
+}

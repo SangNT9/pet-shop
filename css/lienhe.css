@@ -1,0 +1,32 @@
+.lienhe p{
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+}
+.lienhe h1{
+    font-size: 40px;
+    color: #eb4d4b;
+}
+.lienhe .ten{
+    font-size: 25px;
+}
+.sv1{
+    float: left;
+    margin-right: 30px;
+}
+.sv1,.sv2{
+    padding: 20px;
+}
+.lienhe{
+    width: 1060px;
+    min-height: 410px;
+    float: left;
+    margin: 10px;
+    background: whitesmoke;
+}
+.sv1{
+    width: 45%;
+}
+.ndth {
+    margin-left:175px;
+}
